@@ -7,7 +7,7 @@ Dashboard sinyal trading rule-based untuk XAUUSD (emas vs USD): indikator MA20/M
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
+ 
 ## Sumber Data
 - **Yahoo Finance (GLD)**: default, tanpa API key (ETF GLD sebagai proxy harga emas; daily + intraday 15m).
 - **Alpha Vantage**: masukkan API key gratis dari https://www.alphavantage.co/support/#api-key di sidebar (FX_DAILY & FX_INTRADAY).
