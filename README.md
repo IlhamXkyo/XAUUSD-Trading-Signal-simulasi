@@ -15,7 +15,7 @@ streamlit run app.py
 
 ## Fitur Sinyal
 1. **Rekomendasi Harian (Swing)** — dari MA20/MA50, RSI, MACD data harian. Skor ≥2 → BUY, ≤-2 → SELL, selain itu → HOLD.
-2. **Saran Kuat 2 Jam** — dihitung dari 4 candle 15-menit terakhir (momentum, MA20 intraday, RSI intraday, akselerasi histogram MACD). Menghasilkan label BUY/SELL/HOLD + level kekuatan (LEMAH/SEDANG/KUAT) + estimasi keyakinan (%).
+2. **Saran Kuat 30 menit/lebih** — dihitung dari pola candle terakhir (momentum, MA20 intraday, RSI intraday, akselerasi histogram MACD). Menghasilkan label BUY/SELL/HOLD + level kekuatan (LEMAH/SEDANG/KUAT) + estimasi keyakinan (%).
 
 ## Disclaimer
 Aplikasi ini untuk tujuan edukasi/analisis teknikal semata, bukan nasihat investasi. Estimasi "2 jam ke depan" bersifat probabilistik berbasis pola historis, **bukan jaminan pergerakan harga**. Selalu gunakan manajemen risiko (stop-loss) dan lakukan riset mandiri sebelum trading nyata.
