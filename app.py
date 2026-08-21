@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
 
 # ---------- KONFIGURASI HALAMAN ----------
 st.set_page_config(page_title="🥇 XAUUSD Trading Signal Pro", layout="wide")
-
+ 
 # ---------- FUNGSI CACHE (AGAR TIDAK BOROS KUOTA API) ----------
 @st.cache_data(ttl=300, show_spinner="🔄 Mengambil data pasar...")
 def get_data(source, api_key, mode, interval="1d", period="6mo"):
